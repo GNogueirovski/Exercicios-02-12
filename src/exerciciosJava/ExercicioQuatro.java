@@ -30,6 +30,7 @@ public class ExercicioQuatro {
 		
 		// Processamento
 		diferenca = (n1*n2) - (n3*n4);
+		leia.close();
 				
 		// Saída de dados
 		System.out.printf("A diferença é: %.1f ", diferenca);	// concatenação

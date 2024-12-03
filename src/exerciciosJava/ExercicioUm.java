@@ -29,6 +29,8 @@ public class ExercicioUm {
 		
 		// Processamento
 		novosalario = salario + abono;
+		
+		leia.close();
 				
 		// Saída de dados
 		System.out.printf("Bom dia %s, seu novo salário é:R$%.2f ",nomefunc, novosalario);

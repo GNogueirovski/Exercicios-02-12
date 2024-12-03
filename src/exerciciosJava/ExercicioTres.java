@@ -33,6 +33,7 @@ public class ExercicioTres {
 		// Processamento
 		
 		salariol = salariob + adicionaln + (horae*5) - desc;
+		leia.close();
 				
 		// Saída de dados
 		System.out.printf("O salário líquido de %s é de R$%.2f", nomefunc, salariol);	// concatenação

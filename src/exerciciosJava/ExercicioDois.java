@@ -30,9 +30,11 @@ public class ExercicioDois {
 		
 		System.out.println("Insira a quarta nota: ");
 		n4 = leia.nextFloat();
+
 		
 		// Processamento
 		media = (n1+n2+n3+n4) / 4;
+		leia.close();
 				
 		// Saída de dados
 		System.out.printf("A média do aluno %s é: %.1f ",nomealuno, media);	// concatenação
